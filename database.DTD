@@ -1,0 +1,8 @@
+DTD:
+       <!DOCTYPE db[
+             <!ELEMENT bd(Users*)>
+             <!ELEMENT Users (name,age,email)>
+             <!ELEMENT name (#PCDATA)>
+             <!ELEMENT age (#PCDATA)>
+             <!ELEMENT email (#PCDATA)>
+     ]>         
