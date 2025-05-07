@@ -1,6 +1,5 @@
- XML:
-      <USER INFO>
-            <USER ID>96</USER ID>
-            <NAME> HEISENBERG </NAME>
-            <AGE> 52 </AGE>
-       </USER INFO>
+<USER_INFO>
+    <USER_ID>96</USER_ID>
+    <NAME>HEISENBERG</NAME>
+    <AGE>52</AGE>
+</USER_INFO>
