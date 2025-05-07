@@ -1,8 +1,7 @@
-DTD:
-       <!DOCTYPE db[
-             <!ELEMENT bd(Users*)>
-             <!ELEMENT Users (name,age,email)>
-             <!ELEMENT name (#PCDATA)>
-             <!ELEMENT age (#PCDATA)>
-             <!ELEMENT email (#PCDATA)>
-     ]>         
+<!DOCTYPE db [
+    <!ELEMENT db (Users*)>
+    <!ELEMENT Users (name, age, email)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT age (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+]>
