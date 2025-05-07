@@ -1,8 +1,8 @@
 <!DOCTYPE login SYSTEM "default.DTD">
 <login>
-<default> 10 </default>
-<designedby> Jon Snow </designedby>
+    <default>10</default>
+    <designedby>Jon Snow</designedby>
 </login>
-<!ELEMENT login[default,designedby]>
-<!ELEMENT default[#PCDATA]>
-<!ELEMENT designedby[#PCDATA]>
+<!ELEMENT login (default, designedby)>
+<!ELEMENT default (#PCDATA)>
+<!ELEMENT designedby (#PCDATA)>
